@@ -3,30 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
+  <link rel="stylesheet" href="./static/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
 <body>
+  
+  <div id="left-container">
   <header>
-    <h3>BASE APPAREL</h3>
+    <img id="logo-pin" src="./images/logo.svg" alt="BA-logo">
   </header>
   <div class="main-title-container">
-    <h1>WE'RE</h1>
-    <h1>COMING</h1>
-    <h1>SOON</h1>
+    <h1 class="title-text">
+      <span class="title-were">WE'RE</span> <br> COMING <br> SOON</h1> 
   </div>
   <div class="greeting-container">
     <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
   </div>
     <form class="email-form" action="#">
      <input type="email" class="email-input" required placeholder="Email Address">
-      <button type="submit" class="form-submit"><link rel="icon" type="image/png" href="./images/icon-arrow.svg"></button>
+      <button type="submit" class="form-submit"><img src="./images/icon-arrow.svg" alt=""></button>
     </form>
-  <img src="./images/hero-desktop.jpg">
-
+  
+</div>
+<div id="right-container">
+</div>
 
 
   <footer>
@@ -35,5 +41,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
 </body>
 </html>
